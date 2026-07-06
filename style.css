@@ -1,10 +1,9 @@
 html {
-  background-color: #1f2937;
+  margin: 0;
 }
 
 body {
   margin: 0;
-  padding: 0 400px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,6 +20,8 @@ p {
   display: flex;
   flex-direction: column;
   gap: 80px;
+  padding: 0 400px 80px;
+  height: 450px;
 }
 
 .header {
@@ -81,4 +82,71 @@ p {
 
 .img-text {
   color: #e5e7eb;
+}
+
+.block-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 400px;
+  gap: 45px;
+  height: 450px;
+}
+
+.block-2 .title {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  margin-top: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 154px;
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  text-align: center;
+  color: #8a8a8a;
+}
+
+.block-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 400px;
+  height: 450px;
+  gap: 10px;
+  background-color: #c2bfbf;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  width: 805px;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 20px;
+  align-self: flex-end;
+  margin-right: 130px;
 }
